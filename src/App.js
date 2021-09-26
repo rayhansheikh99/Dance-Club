@@ -1,18 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
+
 
 function App() {
-  useEffect(() => {
-    fetch('./dancer.JSON')
-    .then(res => res.json())
-    .then(data => console.log(data));
-  },[])
+ 
   return (
     <div className="App">
-      
+     <Header></Header>
+     <Shop/>
+     <Footer/>
     </div>
   );
 }
+
+
+
 
 export default App;
