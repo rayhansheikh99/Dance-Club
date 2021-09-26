@@ -3,8 +3,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div>
-              
+  <div>           
     <footer className="site-footer">
       <div className="container">
         <div className="row">
@@ -55,8 +54,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-</footer>
-        </div>
+    </footer>
+  </div>
     );
 };
 

@@ -1,10 +1,12 @@
 import React from 'react';
-// import Dancer from '../Dancer/Dancer';
-import './cart.css'
+
+import './cart.css';
 
 const Cart = (props) => {
     const {cart} = props || {};
 
+
+    // Total cost added 
     const totalReducer=(prevValue,currentValue)=>prevValue+currentValue.price
 
    const total=cart.reduce(  totalReducer   ,  0)
@@ -18,7 +20,7 @@ const Cart = (props) => {
                     cart.map(dancer => <p>{dancer.name}: {dancer.price}</p>)
                }
             </ul>
-            <h5>Total Price: {total}</h5>
+            <h5>Total Cost: {total}</h5>
             <button className='btn btn-primary'>Buy Now</button>
         </div>
     );

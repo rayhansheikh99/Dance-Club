@@ -7,6 +7,7 @@ const Dancer = (props) => {
     const {name,age,danceStyle,Division,price,img}=props.dancer || {};
     return (
         <div>
+            {/* dancer data display  */}
             <div className="col ">
                     <div className="card h-100 card-element">
                     <img src={img} className="card-img-top img-dancer mx-auto d-block" alt="..."/>

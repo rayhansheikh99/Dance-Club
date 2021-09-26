@@ -7,14 +7,14 @@ const Shop = () => {
 
     const [dancers,setDancers]= useState([]);
 
+    // cart dynamic 
     const [cart, setCart] = useState([]);
-
     const handleAddDancer = (dancer) =>{
         const newCart = [...cart , dancer]
         setCart(newCart)
         
     }
-
+    // data fetch 
     useEffect(()=>{
         fetch('/dancer.JSON')
         .then(res => res.json())

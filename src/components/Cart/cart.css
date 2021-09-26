@@ -1,9 +1,8 @@
 .cart{
     background-image: linear-gradient(rgba(241, 199, 199, 0.808),rgba(181, 181, 236, 0.788));
-    position: fixed;
-    margin-left: 1%;
-    margin-right: 2%;
-    padding: 2%;
+    margin-left: 3%;
+    margin-right: 9%;
+    padding: 4%;
     border-radius: 3%;
     box-shadow: gray -3px 1px 8px 1px;
     
