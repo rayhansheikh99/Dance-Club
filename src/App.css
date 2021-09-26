@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210403/pngtree-simple-white-flat-vectors-with-diagonal-cuts-decorative-backdrops-for-your-image_597614.jpg');
+  /* overflow:hidden ; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .App-logo {

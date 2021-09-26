@@ -26,7 +26,8 @@ const Shop = () => {
             <div className="row row-cols-1 row-cols-md-3 g-4 card-design pb-3">
                 {
                     
-                    dancers.map(dancer=> <Dancer dancer={dancer} handleDancer={handleAddDancer}/>)
+                    dancers.map(dancer=> <Dancer key={dancer.key} dancer={dancer} handleDancer={handleAddDancer}/>)
+
                 }
             </div>
             <div>

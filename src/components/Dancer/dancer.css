@@ -8,7 +8,7 @@
     text-align: left;
 }
 .card-element{
-    background-image: linear-gradient(rgba(222, 224, 220, 0.842),rgba(182, 228, 122, 0.719));
+    background-image: linear-gradient(rgba(222, 224, 220, 0.842),rgba(224, 238, 202, 0.815));
 }
 .card-footer{
     background-color: rgb(137, 195, 133);
@@ -17,4 +17,11 @@
     border-radius: 10px;
     border: none;
     background-color: rgb(247, 244, 109);
+}
+.btn-design:hover{
+    background-color:  rgb(228, 226, 99);
+}
+.rating{
+    font-size: 8px;
+    color: goldenrod;
 }

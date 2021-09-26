@@ -1,10 +1,10 @@
 .shop-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin-left: 50px;
+    margin-left: 2%;
     margin-top: 30px;
     padding-top: 20px;
-    /* background-color: rgb(176, 239, 241); */
+    
 }
 .card-design{
     /* background-color: rgb(171, 221, 122); */

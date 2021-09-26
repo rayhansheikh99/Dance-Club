@@ -12,10 +12,10 @@ const Cart = (props) => {
     return (
         <div className='cart'>
             <h3>Dancers Cart Details</h3>
-            <h5><i class="fas fa-user"></i> Dancers Added: {cart.length}</h5>
+            <h5><i className="fas fa-user"></i> Dancers Added: {cart.length}</h5>
             <ul>
                {
-                    cart.map(dancer => <p>{dancer.name}</p>)
+                    cart.map(dancer => <p>{dancer.name}: {dancer.price}</p>)
                }
             </ul>
             <h5>Total Price: {total}</h5>

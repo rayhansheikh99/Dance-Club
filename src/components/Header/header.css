@@ -4,3 +4,9 @@
 .nav-bg{
     background-color: rgb(222, 221, 135);
 }
+.bg-color{
+    background-color: #bcbf8fe0;
+    padding: 10px 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+}

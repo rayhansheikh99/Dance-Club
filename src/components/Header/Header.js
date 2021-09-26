@@ -33,8 +33,9 @@ const Header = () => {
             </nav>
             
         </div>
-        <div>
+        <div className='bg-color'>
             <h3>Welcome To Our World Best Dance Club</h3>
+            <h4>Make Your Best Dance Team </h4>
             <h5>Our Total Budget: 10 Million</h5>
         </div>
         </div>

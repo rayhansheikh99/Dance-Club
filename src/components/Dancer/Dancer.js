@@ -1,5 +1,7 @@
 import React from 'react';
-import './dancer.css'
+import Rating from 'react-rating';
+import './dancer.css';
+
 
 const Dancer = (props) => {
     const {name,age,danceStyle,Division,price,img}=props.dancer || {};
@@ -14,9 +16,14 @@ const Dancer = (props) => {
                         <p className="card-text"><b>Dance Style:</b> {danceStyle}</p>
                         <p className="card-text"><b>Division:</b> {Division}</p>
                         <p className="card-text"><b>Price: </b>Tk {price}</p>
+                        <p className="card-text"><b>Rating: </b><Rating className='rating' emptySymbol="fa fa-star-o fa-2x" 
+                        fullSymbol="fa fa-star fa-2x"
+                        initialRating={3.5}
+                        readonly
+                        /></p>
                     </div>
                     <div className="card-footer">
-                        <button onClick={()=> props.handleDancer(props.dancer)} className='px-5 btn-design'><i class="fas fa-cart-plus me-2"></i>Add to Cart</button>
+                        <button onClick={()=> props.handleDancer(props.dancer)} className='px-5 btn-design'><i className="fas fa-cart-plus me-2"></i>Add to Cart</button>
                     </div>
                     </div>
                 </div>
